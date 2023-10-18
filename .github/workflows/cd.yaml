@@ -23,3 +23,5 @@ jobs:
         run: terraform apply -auto-approve
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GCP_SA_KEY }}
+
+      # consider the current state of terraform before choosing command whether that be apply / destroy
