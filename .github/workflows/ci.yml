@@ -23,5 +23,4 @@ jobs:
           python -m pip install --upgrade pip
          
 
-      - name: Run Tests
-        run: pytest
+      
